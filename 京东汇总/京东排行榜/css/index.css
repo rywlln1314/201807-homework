@@ -1,0 +1,1526 @@
+/*顶部工具栏部分*/
+#shortcut{
+    width: 100%;
+    height: 30px;
+    background: #e3e4e5;
+}
+#shortcut a{
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+#shortcut a:hover{
+    color: #f30213;
+}
+#shortcut .s-left a{
+    margin: 0 ;
+}
+.w{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.s-left{
+    float: left;
+}
+.s-left i{
+    background: url("../imgs/house.png") no-repeat;
+    position: relative;
+    top:3px;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-size: 20px 16px;
+}
+.s-right{
+    float: right;
+}
+.s-right li{
+    position: relative;
+    float: left;
+    height: 30px;
+    padding: 0 2px;
+}
+.s-right li.spacer{
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+    background: #ccc;
+    overflow: hidden;
+}
+.s-right li i{
+    margin-top: 9px;
+    float: right;
+    background: url("../imgs/arrow.png") no-repeat;
+    background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+}
+.s-right li a{
+    margin: 0 5px;
+    z-index: 1;
+}
+.s-right .froe1 .cg1{
+    position: absolute;
+    bottom: -160px;
+    left: -1px;
+    background: #fff;
+    width: 280px;
+    height: 160px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+    z-index: 1;
+}
+.s-right .froe1 .cg1 a{
+    float: left;
+    margin: 0;
+    width: 140px;
+    height: 30px;
+}
+.s-right .froe1 .cg1 .cg1_top{
+    height: 94px;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.s-right .froe1:hover{
+    background: #fff;
+}
+.s-right .froe1:hover .cg1{
+    display: block;
+}
+.s-right .froe2 .cg2{
+    position: absolute;
+    bottom: -60px;
+    left: -1px;
+    background: #fff;
+    width: 160px;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+    z-index: 1;
+}
+.s-right .froe2 .cg2 a{
+    float: left;
+    margin: 0;
+    width: 80px;
+    height: 30px;
+}
+.s-right .froe2:hover{
+    background: #fff;
+}
+.s-right .froe2:hover .cg2{
+    display: block;
+}
+.s-right .froe3 .cg3{
+    position: absolute;
+    right: -1px;
+    width: 170px;
+    height: 270px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px 0;
+    display: none;
+    z-index: 1;
+}
+.s-right .froe3 .cg3 h5{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.s-right .froe3 .cg3 a{
+    float: left;
+    margin: 0;
+    width: 85px;
+    height: 30px;
+}
+.s-right .froe3 .cg3 .cg3_top{
+    height: 150px;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.s-right .froe3:hover{
+    background: #fff;
+}
+.s-right .froe3:hover .cg3{
+    display: block;
+}
+.s-right .froe4 .cg4{
+    position: absolute;
+    right: -65px;
+    width: 1200px;
+    height: 150px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 20px 0 10px;
+    display: none;
+    z-index: 2;
+}
+.s-right .froe4 .cg4 h5{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.s-right .froe4 .cg4 a{
+    float: left;
+    margin: 0;
+    width: 92px;
+    height: 20px;
+}
+.s-right .froe4 .cg4 .cg4_1{
+    width: 369px;
+    float: left;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.s-right .froe4 .cg4 .cg4_2{
+    width: 277px;
+    float: left;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.s-right .froe4 .cg4 .cg4_3{
+    width: 277px;
+    float: left;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.s-right .froe4 .cg4 .cg4_4{
+    width: 276px;
+    float: left;
+}
+.s-right .froe4:hover{
+    background: #fff;
+}
+.s-right .froe4:hover .cg4{
+    display: block;
+}
+.s-right li .tran{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    border: 4px solid #e3e4e5;
+    width: 0;
+    height: 0;
+    border-bottom-color: #fff;
+}
+.tooltip{
+    width: 190px;
+    height: 321px;
+    position: absolute;
+    bottom:-321px;
+    right: 0;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 3px 1px #000;
+    display: none;
+}
+.tooltip .tooltip_top{
+    width: 100%;
+    height: 107px;
+    border-bottom: 1px solid #ccc;
+    padding:17px 8px 0;
+    box-sizing: border-box;
+}
+.tooltip .tooltip_top .imgBox{
+    width: 65px;
+    height: 65px;
+    border: 1px solid #ccc;
+    padding: 2px 2px;
+    float: left;
+}
+.tooltip .tooltip_top .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+.tooltip .tooltip_top a{
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: -6px;
+    left: 1px;
+}
+.tooltip .tooltip_top p{
+    font-size: 12px;
+    color: #e52115;
+    position: relative;
+    top:-8px;
+    left: 10px;
+}
+.tooltip .tooltip_top .sur{
+    width: 85px;
+}
+.s-right .sj:hover .tran{
+    display: block;
+}
+#shortcut .w .s-right .sj:hover .tooltip{
+    display: block;
+}
+/*搜索栏部分*/
+.header{
+    width: 1200px;
+    height: 110px;
+    margin: auto;
+}
+.logoBox{
+    width: 350px;
+    height: 50px;
+    float: left;
+    margin: 15px 0 22px;
+}
+.logoBox h3,i,p{
+    display: inline-block;
+    font-weight: normal;
+}
+.logoBox h3{
+    font-size: 20px;
+    line-height: 60px;
+    color: #666;
+    margin: 0 10px 0 30px;
+}
+.logoBox i{
+    background: url("../imgs/map.png");
+    width: 15px;
+    height: 15px;
+    background-size: 100% 100%;
+    position: relative;
+    top: 2px;
+}
+.logoBox p{
+    font-size: 14px;
+    color: #222;
+    margin-left: -5px;
+}
+.inputBox{
+    width: 550px;
+    height: 60px;
+    float: left;
+}
+.inputBox .search{
+    float: left;
+    width: 545px;
+    margin-top: 27px;
+    /*border: 2px solid #f30213;*/
+}
+.inputBox .search input{
+    width: 450px;
+    height: 37px;
+    border:2px solid #f30213;
+    float: left;
+    font-size: 12px;
+    padding-left: 5px;
+    box-sizing: border-box; //~~~~~~怪异盒模型
+
+}
+.inputBox .search a{
+    float: left;
+    width: 82px;
+    height: 37px;
+    line-height: 36px;
+    background:  #f30213;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.inputBox_ul {
+    float: left;
+    width: 542px;
+    height: 20px;
+}
+.inputBox_ul li{
+    float: left;
+    margin-right: 10px;
+}
+.inputBox_ul li a{
+    font-size: 12px;
+    color: #999;
+}
+.inputBox_ul li a:hover{
+    color: #f30213;
+}
+.shoppingCar{
+    float: right;
+    /*width: 140px;
+    height: 36px;*/
+    background: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    margin-top: 27px;
+    padding: 0 16px;
+}
+.shoppingCar a{
+    font-size: 12px;
+    color: #f30213;
+    line-height: 36px;
+}
+.shoppingCar i{
+    width: 20px;
+    height: 16px;
+    background: url("../imgs/shopCar.png") no-repeat;
+    background-size: 20px 16px;
+    position: relative;
+    top: 3px;
+}
+.shoppingCar div{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #f30213;
+    border-radius:50%;
+    background: #f30213;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;text-align: center;
+    position: relative;
+    top:-5px;
+    left: -10px;
+}
+/*导航栏部分*/
+/*背景特效-开始*/
+.nav .center ul li.currentPo{
+    width: 108px;
+    height: 96px;
+/*    z-index: 1;*/
+    background: radial-gradient(80px at 50% 10%,#df2a22 0,#a10800 100%);
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 0 2px 0 rgba(2,2,2,0.34)
+}
+.currentPo div{
+    display: none;
+}
+/*背景特效-结束*/
+.nav {
+    width: 100%;
+    background: #e52115;
+    height: 86px;
+}
+.nav .center{
+    width: 1200px;
+    margin: auto;
+}
+.nav .center ul li{
+    position: relative;
+    float: left;
+    width: 108px;
+    height: 86px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+.nav .center ul li::after{
+    width: 0;
+    height: 0;
+    border-right: 8px dashed transparent;
+    border-bottom: 10px solid #690803;
+    right: -8px;
+    top: 0;
+    transform: translate(0);
+    position: absolute;
+    content: "";
+   display: none;
+}
+.topFixe .nav .center ul li.current::after{
+    width: 0;
+    height: 0;
+    border-right: 8px dashed transparent;
+    border-bottom: 10px solid #690803;
+    right: -8px;
+    top: 0;
+    transform: translate(0);
+    position: absolute;
+    content: "";
+   display: block;
+}
+.topFixe .nav .center ul li.current:hover{
+    background: radial-gradient(80px at 50% 10%,#df2a22 0,#a10800 100%);
+}
+.nav .center ul li:hover{
+    background: #f7942c;
+}
+.nav .center ul li a{
+    color: #fff;
+}
+.nav .center ul li a i{
+    margin-bottom: 3px;
+    position: relative;
+    left: 36px;
+    top: 15px;
+}
+.nav .center ul li a img{
+    width: 35px;
+    height: 35px;
+
+}
+.nav .center ul li a p{
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.nav .center ul li div{
+    width: 1px;
+    height: 30px;
+    background: #fff;
+    opacity: 0.3;
+    position: absolute;
+    top:50%;
+    right: 0;
+    margin-top: -15px;
+}
+.nav .center .last_li{
+    position: relative;
+    width: 109px;
+    height: 86px;
+}
+.nav .center .last_li .classify{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.nav .center .last_li .classify img{
+    margin-left: 1px;
+    width: 18px;
+    height: 18px;
+    transition: all .2s ease;
+}
+.nav .center .last_li .fon{
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.nav .center .last_li:hover .iconTra{
+    display: block;
+}
+.nav .center .last_li:hover .nothingBox{
+    display: block;
+}
+.nav .center .last_li:hover img{
+    transform: rotate(-180deg);
+}
+.nav .center .last_li .iconTra{
+    position: absolute;
+    top: 102px;
+    right: 50px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #f7942c;
+    opacity: 1;
+    display: none;
+}
+.nav .center .last_li .nothingBox{
+    position: absolute;
+    top: 120px;
+    right: -11px;
+    width: 1200px;
+    height: 400px;
+    line-height: 400px;
+    font-size: 30px;
+    text-align: center;
+    color: #ddd;
+    background: #f7942c;
+    z-index: 12;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+    opacity: 1;
+    display: none;
+}
+.tar{
+    width: 100%;
+    height: 45px;
+    box-shadow: 0 0 8px 0 #999;
+    background: #fff;
+}
+.tar .tar_box{
+    position: relative;
+    width: 1200px;
+    height: 45px;
+    margin: auto;
+}
+.tar ul{
+    position: absolute;
+    left: 0;
+}
+.tar ul li{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 13px;
+    padding: 0 13px;
+    margin:10px 10px 0 0;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+}
+.tar ul li.current{
+    background: #e52115;
+    color: #fff;
+}
+.tar ul li:hover{
+    border-color: #f30213;
+}
+.tar ul li:hover a{
+    color: #f30213;
+}
+/*固定在顶层*/
+.topFixed{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 666;
+    display: none;
+}
+/*banner部分 开始*/
+.banner{
+    width: 100%;
+   /* height: 100%;*/
+    background: url("../imgs/bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.centerType{
+    width: 1200px;
+    margin: auto;
+}
+.centerType .phone h2{
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    color: #1f1f1f;
+}
+.centerType .phone a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 110px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+}
+.centerType .phone a .page{
+    width: 14px;
+    height: 14px;
+    background: url("../imgs/page.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 2px;
+
+}
+.centerType .phone a .arrow{
+    width: 10px;
+    height: 10px;
+    background: url("../imgs/arrow.png") no-repeat;
+    background-size: 100%;
+}
+/*公共样式 开始*/
+.centerType .initially{
+    width: 1200px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+.centerType .initially .fire{
+    float: left;
+    width: 40px;
+    height: 49px;
+    background: url("../imgs/fire.png") no-repeat;
+    background-size: 40px 49px;
+}
+.centerType .initially .goodbg{
+    float: left;
+    width: 40px;
+    height: 46px;
+    background: url("../imgs/good.png") no-repeat;
+    background-size: 40px 46px;
+}
+.centerType .initially .storebg{
+    float: left;
+    width: 40px;
+    height: 46px;
+    background: url("../imgs/good.png") no-repeat;
+    background-size: 40px 46px;
+}
+.centerType .initially .searchbg{
+    float: left;
+    width: 40px;
+    height: 46px;
+    background: url("../imgs/good.png") no-repeat;
+    background-size: 40px 46px;
+}
+.centerType .initially .discountbg{
+    float: left;
+    width: 40px;
+    height: 46px;
+    background: url("../imgs/good.png") no-repeat;
+    background-size: 40px 46px;
+}
+.centerType .initially h2{
+    font-weight: normal;
+    color: #e52115;
+    padding-left: 45px;
+}
+.centerType .initially .hot-font{
+    width: 1200px;
+    height: 22px;
+    margin-bottom: 20px;
+}
+.centerType .initially p{
+    font-size: 12px;
+    margin-left: 8px;
+    color: #999;
+}
+.centerType .initially p span{
+    margin-left: 12px;
+    opacity: 0.5;
+}
+.centerType .initially .refresh{
+    width: 14px;
+    height: 14px;
+    background: url("../imgs/shuaxin.png") no-repeat;
+    background-size: 14px 14px;
+    position: relative;
+    top: 3px;
+    left: 12px;
+}
+.centerType .initially .find{
+    width: 98px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+.centerType .initially a:hover{
+    color: #e52115;
+}
+.getMore{
+    position: relative;
+    width: 1200px;
+    height: 75px;
+    cursor: pointer;
+    user-select: none;
+}
+.getMore .more{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 115px;
+    height: 30px;
+    background: linear-gradient(90deg,#e52115,#a10800) ;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.getMore .more i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../imgs/arrow (2).png") no-repeat;
+    background-size: 16px 16px;
+    position: relative;
+    top:3px;
+}
+.getMore .more:hover{
+    color: #fff;
+    background: linear-gradient(90deg,#a10800,#e52115) ;
+}
+/*公共样式 结束*/
+/*热卖榜*/
+.hot{
+    width: 100%;
+    height: 730px;
+}
+.hot .ulBox{
+    width: 100%;
+    height: 600px;
+}
+.hot ul li{
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 320px;
+    background: #fff;
+    margin: 0 10px 10px 0;
+}
+.hot ul li.hot-li{
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 245px;
+    margin: 0 10px 10px 0;
+}
+.hot ul li.hot-li .hot-top{
+    position: absolute;
+    top:10px;
+    left: -5px;
+}
+.hot ul li.hot-li .hot-top span:nth-child(1){
+    display: inline-block;
+    width: 36px;
+    height: 24px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    border-width: 1px 0;
+    text-align: center;
+    background: #e52115;
+}
+.hot ul li.hot-li .hot-top span:nth-child(2){
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #e52115;
+    font-size: 12px;
+    color: #e52115;
+    border-radius: 0 24px 24px 0;
+    margin-left: -4px;
+    padding: 0 10px 0 5px;
+}
+.hot ul li.hot-li .hot-content img{
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 58px 0 0 12px;
+    transition: all .5s ease;
+}
+.hot ul li.hot-li .hot-content .desc{
+    width: 181px;
+    float: left;
+    display: inline-block;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 25px;
+}
+.hot ul li.hot-li .hot-content .desc p{
+    display: inline-block;
+    height: 40px;
+    font-size: 14px;
+    color: #999;
+    /*多行文本出现省略号*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2 ;
+    -webkit-box-orient: vertical;
+    margin: 58px 0 3px 0;
+}
+.hot ul li.hot-li .hot-content .desc .desc1{
+    width: 181px;
+}
+.hot ul li.hot-li .hot-content .desc .desc1 div{
+    height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #ff943d;
+    border: 1px solid #ff943d;
+    padding: 0 5px;
+}
+.hot ul li.hot-li .hot-content .price{
+    position: relative;
+    top: 25px;
+    height: 20px;
+    font-size: 18px;
+    color: #e52115;
+}
+.hot ul li:hover{
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.hot ul li:hover img{
+    transform: scaleY(1.05) scaleX(1.01);
+}
+.hot ul li .hot-second{
+    position: absolute;
+    top:10px;
+    left: -5px;
+    width: 36px;
+    height: 24px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    border-width: 1px 0;
+    text-align: center;
+    background: #d3bf99;
+}
+.hot ul li .hot-content img{
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 15px 0 0 35px;
+    transition: all .5s ease;
+}
+.hot ul li .hot-content .desc{
+    width: 181px;
+    float: left;
+    display: inline-block;
+    margin-left: 12px;
+}
+.hot ul li .hot-content .desc p{
+    display: inline-block;
+    height: 40px;
+    font-size: 14px;
+    color: #999;
+    /*多行文本出现省略号*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2 ;
+    -webkit-box-orient: vertical;
+    margin: 15px 0 3px 0;
+}
+.hot ul li .hot-content .desc .desc1{
+    width: 181px;
+    margin-top: 20px;
+}
+.hot ul li .hot-content .desc .desc1 div{
+    height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #ff943d;
+    border: 1px solid #ff943d;
+    padding: 0 5px;
+}
+.hot ul li .hot-content .price{
+    position: relative;
+    top: 7px;
+    left: 12px;
+    height: 20px;
+    font-size: 18px;
+    color: #e52115;
+}
+.moreBox{
+    display: none;
+    width: 1200px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+.packUp{
+    position: absolute;
+    width: 1200px;
+    height: 75px;
+    bottom: 0;
+    cursor: pointer;
+    user-select: none;
+}
+.packUp .desc{
+    position: absolute;
+    /*对于盒子来说，上下左右都为0，margin:auto=水平垂直居中*/
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width: 115px;
+    height: 30px;
+    background: linear-gradient(90deg,#e52115,#a10800) ;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.packUp .desc i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../imgs/arrow (2).png") no-repeat;
+    background-size: 16px 16px;
+    position: relative;
+    top:3px;
+}
+.packUp .desc:hover{
+    color: #fff;
+    background: linear-gradient(90deg,#a10800,#e52115) ;
+}
+.moblie,.list{
+    display: none;
+}
+/*好物榜*/
+.good_thing{
+    width: 100%;
+    height: 970px;
+}
+.gdBox{
+    position: relative;
+    width: 1200px;
+    height: 830px;
+}
+.gdBox .gdbox1{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: url("../imgs/top_mod1.jpg") no-repeat;
+    background-size: 1200px 250px;
+}
+.gdBox .gdbox2{
+    background: url("../imgs/top_mod2.jpg") no-repeat;
+    background-size: 1200px 250px;
+}
+.gdBox .gdbox3{
+    background: url("../imgs/top_mod3.jpg") no-repeat;
+    background-size: 1200px 250px;
+}
+.gdBox .gdBox_a{
+    position: absolute;
+    width: 434px;
+    height: 62px;
+    border: 3px solid #fff;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
+    left: 30px;
+    top: 98px;
+    -webkit-transition: all .5s ease!important;
+    transition: all .5s ease!important;
+    z-index: 3;
+}
+.gdBox .gdBox_a:hover{
+    background: #ffffff;
+}
+.gdBox .gdBox_a:hover .gdB_center{
+    color: black;
+}
+.gdBox .gdBox_a:hover .gdB_bottom{
+    color: black;
+}
+.gdB_top{
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    top: -39px;
+    left: 0;
+    padding-bottom: 12px;
+}
+.gdB_center{
+    height: 28px;
+    line-height: 28px;
+    font-size: 22px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 10px;
+}
+.gdB_bottom{
+    line-height: 18px;
+    font-size: 12px;
+}
+.gdBox .gd_ul{
+    position: absolute;
+    right: 10px;
+    height: 250px;
+    padding-right: 170px;
+    z-index: 3;
+}
+.gdBox .gd_li{
+    top: 20px;
+    position: relative;
+    width: 160px;
+    height: 214px;
+    float: left;
+    margin-right: 10px;
+    background: #fff;
+    text-align: center;
+}
+.gdBox .gd_li i{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    background: #df2a22;
+    z-index: 1;
+}
+.gdBox .gd_li img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.gdBox .gd_li .gd_p{
+    line-height: 22px;
+    font-size: 12px;
+    margin: 0 10px;
+    padding-top: 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+}
+.gdBox .gd_li .gd_p1{
+    color: #e52115;
+    font-size: 12px;
+}
+.gdBox .gd_li:hover img{
+    transform: translateY(-5px);
+}
+.gdBox .gd_more{
+    position: absolute;
+    width: 160px;
+    height: 214px;
+    line-height: 172px;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    color: #666;
+    background: #fff;
+    background: hsla(0,0%,100%,.8);
+    font-size: 14px;
+    z-index: 10;
+    -webkit-transition: all .5s ease!important;
+    transition: all .5s ease!important;
+}
+.gdBox .gd_more:hover{
+    background: #fff;
+    color: #e52115;
+}
+.gdBox .gd_more div{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background: #e52115;
+    border-radius: 50%;
+}
+.gdBox .gd_more i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(-90deg);
+    background: url("../imgs/arrow (2).png") no-repeat center center;
+    background-size: 25px 25px;
+    width: 30px;
+    height: 30px;
+}
+/*加载更多moreBox1*/
+.moreBox1{
+    display: none;
+    width: 1200px;
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+}
+.upTwo{
+    position: absolute;
+    bottom: 0;
+}
+
+/*热搜榜*/
+.tsBox{
+    width: 100%;
+    height: 490px;
+    position: relative;
+}
+.tsBox ul{
+    width: 100%;
+    height: 480px;
+}
+.tsBox .ts_li{
+    position: relative;
+    float: left;
+    width: 590px;
+    height: 220px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.03);
+    margin: 0 10px 20px 0;
+    background: #fff;
+    line-height: 0;
+    font-size: 0;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.tsBox .ts_li:hover{
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+}
+.tsBox .ts_li a img{
+    width: 140px;
+    height: 220px;
+}
+.tsBox .ts_li .ts_li_r{
+    display: inline-block;
+    width: 448px;
+    height: 200px;
+    padding: 10px 0;
+    border: 1px solid #f2f2f2;
+    border-bottom: none;
+}
+.tsBox .ts_li .ts_li_r .ts_li_ul{
+    width: 450px;
+    height: 200px;
+}
+.tsBox .ts_li .ts_li_li{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 200px;
+    padding: 0 10px;
+    transition: all .5s ease;
+}
+.tsBox .ts_li .ts_li_li:hover img{
+    transform: translateY(-3px);
+}
+.tsBox .ts_li .ts_li_li img{
+    width: 130px;
+    height: 130px;
+}
+.tsBox .ts_li .ts_li_li .ts_li_li_top{
+    font-size: 12px;
+    color: #666;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    margin-bottom: 5px;
+}
+.tsBox .ts_li .ts_li_li .ts_li_li_bottom{
+    font-size: 12px;
+    color: #e23232;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+.moreBox2{
+    display: none;
+    width: 1200px;
+    height: 555px;
+    position: relative;
+    overflow: hidden;
+}
+.upThree{
+    position: absolute;
+    bottom: 0;
+}
+.copy_1{
+    display: none;
+}
+.copy_2{
+    display: none;
+}
+/*footer部分 开始*/
+.footer {
+    width: 100%;
+    background: #eaeaea;
+}
+.footer .merit {
+    width: 1200px;
+    height: 42px;
+    padding: 30px 0;
+    margin: auto;
+}
+.footer .merit ul li {
+    width: 300px;
+    height: 42px;
+    float: left;
+}
+.footer .merit ul li img {
+    width: 36px;
+    height: 42px;
+    background: url("../imgs/ico4.png") no-repeat top;
+    background-size: cover;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.footer .merit ul li img.img2 {
+    background-position: 0 -43px;
+}
+.footer .merit ul li img.img3 {
+    background-position: 0 -86px;
+}
+.footer .merit ul li img.img4 {
+    background-position: 0 -129px;
+}
+.footer .merit ul li p {
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 42px;
+}
+.footer .companion {
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+}
+.footer .companion .com_header {
+    width: 1200px;
+    height: 160px;
+    padding: 20px 0;
+    margin: auto;
+}
+.footer .companion .com_header .com_content {
+    width: 1275px;
+}
+.footer .companion .com_header .com_content dl {
+    width: 255px;
+    height: 160px;
+    line-height: 22px;
+    float: left;
+}
+.footer .companion .com_header .com_content dl dt {
+    padding-bottom: 6px;
+    height: 22px;
+}
+.footer .companion .com_header .com_content dl dt a {
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer .companion .com_header .com_content dl dt a:hover {
+    color: #f30213;
+}
+.footer .companion .com_header .com_content dl dd {
+    text-decoration: none;
+}
+.footer .companion .com_header .com_content dl dd a {
+    font-size: 12px;
+    color: #666;
+}
+.footer .companion .com_header .com_content dl dd a:hover {
+    color: #f30213;
+}
+.footer .about_us {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.footer .about_us p {
+    text-align: center;
+}
+.footer .about_us p a {
+    font-size: 12px;
+    color: #666;
+}
+.footer .about_us p a i {
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url("../imgs/flag.png") no-repeat;
+    background-size: cover;
+}
+.footer .about_us p a:hover {
+    color: #f30213;
+}
+.footer .about_us p span {
+    color: #ccc;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.footer .about_us .footer_pic {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.footer .about_us .footer_pic a {
+    display: inline-block;
+    margin: 0 3px;
+}
+.footer .about_us .footer_pic a img {
+    width: 103px;
+    height: 32px;
+    display: block;
+    background: url("../imgs/footer.png") no-repeat;
+}
+.footer .about_us .footer_pic a img.png2 {
+    background-position: -103px 0;
+}
+.footer .about_us .footer_pic a img.png3 {
+    background-position: 0 -32px;
+}
+.footer .about_us .footer_pic a img.png4 {
+    background-position: -103px -32px;
+}
+.footer .about_us .footer_pic a img.png5 {
+    background-position: 0 -64px;
+}
+.footer .about_us .footer_pic a img.png6 {
+    background-position: -103px -64px;
+}
+/*悬浮窗 开始*/
+.fly{
+    width: 80px;
+    height: 375px;
+    position: fixed;
+    right: 10px;
+    top: 150px;
+    bottom: 150px;
+    z-index: 10;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: none;
+}
+.fly .fly-top{
+    position: relative;
+    width: 80px;
+    height: 98px;
+}
+.fly .fly-top:hover .qr{
+    display: block;
+}
+.fly .fly-top i{
+    background: url("../imgs/phonel.png") no-repeat;
+    width: 34px;
+    height: 34px;
+    background-size: 34px 34px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fly .fly-top p{
+    font-size: 12px;
+    color: #999;
+    line-height: 15px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.fly .fly-top .qr{
+    width:  118px;
+    height: 118px;
+    position: absolute;
+    left: -138px;
+    top:0;
+    background: #fff;
+    display: none;
+    box-shadow: 0 0 9px 2px rgba(0,0,0,.08);
+}
+.fly .fly-top .qr img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.fly .fly-top .qr .sanjiao{
+    border: 8px solid  transparent;
+    width: 0;
+    height: 0;
+    border-left-color: #fff;
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    margin-top: -8px;
+}
+.fly .fly-center{
+    height: 206px;
+    width: 80px;
+}
+.fly .fly-center li{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #ededed;
+}
+.fly .fly-center li.current{
+    background: #e52115;
+}
+.fly .fly-center li.current a{
+    color: #fff;
+}
+.fly .fly-center li.current a:hover{
+    color: #fff;
+}
+.fly .fly-center li:nth-last-child(1){
+    border-bottom: 1px solid #ededed;
+}
+.fly .fly-center li a{
+    font-size: 12px;
+    color: #999;
+}
+.fly .fly-bottom{
+    position: relative;
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+    user-select: none;
+}
+.fly .fly-bottom i{
+    display: block;
+    background: url("../imgs/arrow.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 35px;
+    transform: rotate(180deg);
+}
+.fly .fly-bottom a{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50px;
+    font-size: 12px;
+    color: #999999;
+
+}
+.fly a:hover{
+    color: #e52115;
+}
+.fly .fly-center ul li a:hover{
+    color: #e52115;
+}
+.btn{
+    transition: all 1s ease;
+}

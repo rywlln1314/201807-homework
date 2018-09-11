@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.nav_Box {
+  width: 100%;
+  height: 31px;
+  background: #e3e4e5;
+  overflow: hidden;
+  padding-left: 353px;
+  padding-right: 353px;
+  box-sizing: border-box;
+  line-height: 31px;
+}
+.nav_Box > span {
+  float: left;
+}
+.nav_Box > ul {
+  overflow: hidden;
+  width: 815px;
+  float: right;
+  height: 100%;
+  line-height: 100%;
+}
+.nav_Box > ul li {
+  margin-top: 6px;
+  float: left;
+  margin-left: 12px;
+  border-right: 1px solid #ccc;
+  padding-right: 12px;
+}
+.nav_Box > ul li:hover {
+  color: #f30213;
+}
+.nav_Box > ul :nth-child(1) {
+  overflow: hidden;
+  margin-left: 0;
+}
+.nav_Box > ul :nth-child(1) p {
+  float: left;
+  margin-right: 6px;
+}
+.nav_Box > ul :nth-child(1) span {
+  float: right;
+  color: #f30213;
+}
+header {
+  width: 1190px;
+  margin: auto;
+  position: relative;
+}
+header > img {
+  width: 100%;
+  height: 80px;
+  display: block;
+}
+header a > span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/未标题-1.png") no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+header .headtop {
+  width: 100%;
+  margin-top: 26px;
+  height: 60px;
+}
+header .headtop .headtop_left {
+  height: 55px;
+  width: 351px;
+  float: left;
+  padding-left: 14px;
+}
+header .headtop .headtop_left .s_img {
+  display: inline-block;
+  width: 213px;
+  height: 54px;
+  background: url("//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@1x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+header .headtop .headtop_left .s_img2 {
+  display: inline-block;
+  height: 54px;
+  width: 133px;
+  background: url("../images/未标题-2.png") no-repeat center;
+  background-position: 0 -5px;
+}
+header .headtop .headtop_right {
+  width: 772px;
+  float: right;
+}
+header .headtop .headtop_right input {
+  float: left;
+  border-color: #ffa133;
+  width: 368px;
+  height: 32px;
+  color: #999999;
+  outline: none;
+}
+header .headtop .headtop_right > a {
+  float: left;
+  width: 80px;
+  height: 36px;
+  display: inline-block;
+  background: #ffa133;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+header .headtop .headtop_right .shopTrolley {
+  width: 138px;
+  height: 34px;
+  border: 1px solid #ccc;
+  float: left;
+  background: url("../images/shop.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 30px;
+  position: relative;
+}
+header .headtop .headtop_right .shopTrolley .shopbot {
+  position: absolute;
+  width: 380px;
+  top: 34px;
+  left: -484px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+header .headtop .headtop_right .shopTrolley .shopbot ul {
+  overflow: hidden;
+}
+header .headtop .headtop_right .shopTrolley .shopbot ul li {
+  float: left;
+  margin-right: 10px;
+}
+header .headtop .headtop_right .shopTrolley .shopbot ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+header .headtop .headtop_right .shopTrolley .shopbot ul li a:hover {
+  color: red;
+}
+header .headtop .headtop_right .a1 {
+  position: relative;
+}
+header .headtop .headtop_right .a1:hover img {
+  display: block;
+}
+header .headtop .headtop_right .a1 .code {
+  width: 118px;
+  height: 34px;
+  border: 1px solid #ccc;
+  float: left;
+  background: url("../images/code.png") no-repeat center;
+  background-size: 100% 100%;
+}
+header .headtop .headtop_right .a1 img {
+  width: 120px;
+  height: 110px;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+header .headup {
+  overflow: hidden;
+  margin-top: 24px;
+}
+header .headup > p {
+  width: 176px;
+  height: 33px;
+  background: #ffa133;
+  color: white;
+  line-height: 33px;
+  float: left;
+  padding-left: 14px;
+}
+header .headup ul {
+  float: left;
+  overflow: hidden;
+}
+header .headup ul li {
+  float: left;
+  margin-top: 10px;
+  font-size: 12px;
+  padding-left: 22px;
+  padding-right: 24px;
+  border-right: 1px solid #ccc;
+}
+header .headup ul li:hover a {
+  color: #ffa133;
+}
+header .headup ul li:last-child {
+  border-right: none;
+}
+header .headup ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+header .headup > .s1 {
+  float: left;
+  margin-top: 7px;
+  margin-left: 33px;
+}
+header .headup > .s1 img {
+  user-select: none;
+}
+header .headup > .s2 {
+  float: right;
+  margin-top: 7px;
+}
+header .headup > .s2 img {
+  user-select: none;
+}
+.bodyer {
+  background: #f6f6f6;
+  width: 100%;
+}
+.bodyer .bodyone {
+  width: 1193px;
+  margin: auto;
+}
+.bodyer .bodyone .bodyone_left {
+  width: 190px;
+  float: left;
+  margin-right: 10px;
+  background: white;
+  position: relative;
+}
+.bodyer .bodyone .bodyone_left ul {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.bodyer .bodyone .bodyone_left ul li {
+  width: 100%;
+  height: 61px;
+  box-sizing: border-box;
+  padding-top: 13px;
+  padding-left: 14px;
+}
+.bodyer .bodyone .bodyone_left ul li p {
+  font-size: 12px;
+}
+.bodyer .bodyone .bodyone_left ul li a {
+  margin-top: 2px;
+}
+.bodyer .bodyone .bodyone_left ul li a span {
+  color: #ccc;
+  font-size: 12px;
+}
+.bodyer .bodyone .bodyone_left ul li a span:hover {
+  color: #f30213;
+}
+.bodyer .bodyone .bodyone_left ul li:hover {
+  border: 1px solid #ccc;
+  border-right: none;
+}
+.bodyer .bodyone .bodyone_left ul li:hover p {
+  font-weight: 900;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(1):hover div.d1 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(2):hover div.d2 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(3):hover div.d3 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(4):hover div.d4 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(5):hover div.d5 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(6):hover div.d6 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(7):hover div.d7 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(8):hover div.d8 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left ul li:hover:nth-child(9):hover div.d9 {
+  display: block;
+}
+.bodyer .bodyone .bodyone_left div.d1 {
+  text-align: center;
+  width: 1050px;
+  height: 534px;
+  line-height: 534px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d2 {
+  text-align: center;
+  width: 1050px;
+  height: 410px;
+  line-height: 410px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d3 {
+  text-align: center;
+  width: 1050px;
+  height: 410px;
+  line-height: 410px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d4 {
+  text-align: center;
+  width: 1050px;
+  height: 410px;
+  line-height: 410px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d5 {
+  text-align: center;
+  width: 1050px;
+  height: 430px;
+  line-height: 430px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d6 {
+  text-align: center;
+  width: 1050px;
+  height: 430px;
+  line-height: 430px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d7 {
+  text-align: center;
+  width: 1050px;
+  height: 310px;
+  line-height: 310px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d8 {
+  text-align: center;
+  width: 1050px;
+  height: 420px;
+  line-height: 420px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_left div.d9 {
+  text-align: center;
+  width: 1050px;
+  height: 420px;
+  line-height: 420px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  background: white;
+  z-index: 20;
+  display: none;
+  border-right: 1px solid #ccc;
+  box-shadow: 3px 0px  5px 0px #aaa;
+}
+.bodyer .bodyone .bodyone_center {
+  width: 780px;
+  float: left;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .leftArrow {
+  width: 24px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 152.5px;
+  z-index: 10;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .leftArrow a {
+  color: #ffe7e6;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .leftArrow a:hover {
+  color: #ffa133;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .rightArrow {
+  width: 24px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+  top: 152.5px;
+  z-index: 10;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .rightArrow a {
+  color: #ffe7e6;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop .rightArrow a:hover {
+  color: #ffa133;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop ol {
+  height: 401px;
+  overflow: hidden;
+  position: relative;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop ol li {
+  float: left;
+  width: 780px;
+  height: 401px;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop ol li img {
+  width: 100%;
+  height: 100%;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop ul {
+  overflow: hidden;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centertop ul li {
+  float: left;
+  width: 129px;
+  height: 5px;
+  background: #4a4110;
+  margin-right: 1px;
+}
+.bodyer .bodyone .bodyone_center .bodyone_centerbot > a > img {
+  user-select: none;
+}
+.bodyer .bodyone .bodyone_right {
+  float: right;
+}
+.bodyer .bodytwo {
+  width: 1309px;
+  margin: auto;
+  background: url('http://static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/chaoshi_seckill_bg.png') no-repeat center;
+  background-size: 100% 100%;
+}
+.bodyer .bodytwo .bodytwo_one {
+  width: 1190px;
+  height: 70px;
+  margin: auto;
+  overflow: hidden;
+}
+.bodyer .bodytwo .bodytwo_one span {
+  float: left;
+  margin: 29px 18px 0 18px;
+}
+.bodyer .bodytwo .bodytwo_one p {
+  display: inline-block;
+}
+.bodyer .bodytwo .bodytwo_one .p1 {
+  float: left;
+  font-weight: 900;
+  padding-right: 17px;
+  border-right: 1px solid black;
+  margin: 29px 0px 0 0px;
+}
+.bodyer .bodytwo .bodytwo_one .p2 {
+  float: left;
+  margin: 31px 26px 0 15px;
+  font-size: 12px;
+}
+.bodyer .bodytwo .bodytwo_one .countdown {
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 17.5px;
+}
+.bodyer .bodytwo .bodytwo_one .countdown > img {
+  float: left;
+}
+.bodyer .bodytwo .bodytwo_one .countdown .hour {
+  float: left;
+  background: url("../images/span.png") no-repeat center;
+  background-size: 100% 100%;
+  width: 48px;
+  height: 35px;
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 12px;
+  text-indent: 5px;
+}
+.bodyer .bodytwo .bodytwo_one .countdown .minute {
+  float: left;
+  background: url("../images/span.png") no-repeat center;
+  background-size: 100% 100%;
+  width: 48px;
+  height: 35px;
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 12px;
+  text-indent: 5px;
+}
+.bodyer .bodytwo .bodytwo_one .countdown .second {
+  float: left;
+  background: url("../images/span.png") no-repeat center;
+  background-size: 100% 100%;
+  width: 48px;
+  height: 35px;
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 12px;
+  text-indent: 5px;
+}
